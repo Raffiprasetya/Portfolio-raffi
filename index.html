@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <title>RAFFI PRASETYA DINATA | Web • Network • IoT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#c08457',
+            darkbg: '#1b120d',
+            card: '#2a1d16',
+            accent: '#e6c7a3'
+          },
+          boxShadow: {
+            soft: '0 10px 30px rgba(0,0,0,.45)'
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+
+<body class="bg-darkbg text-gray-200">
+
+<!-- NAV -->
+<nav class="fixed top-0 w-full z-50 bg-darkbg/80 backdrop-blur border-b border-[#3a2a22]">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="font-semibold text-lg text-accent">Raffi Prasetya Dinata</h1>
+    <ul class="hidden md:flex gap-8 text-sm text-gray-400">
+      <li><a href="#home" class="hover:text-accent">Home</a></li>
+      <li><a href="#about" class="hover:text-accent">About</a></li>
+      <li><a href="#skills" class="hover:text-accent">Skills</a></li>
+      <li><a href="#projects" class="hover:text-accent">Projects</a></li>
+      <li><a href="#contact" class="hover:text-accent">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="min-h-screen flex items-center justify-center text-center px-6 pt-24">
+  <div class="max-w-3xl">
+    <p class="text-sm tracking-wide text-gray-400 mb-3">
+      Web Developer • Network • IoT
+    </p>
+
+    <h2 class="text-5xl md:text-6xl font-extrabold mb-6 text-accent">
+      Raffi Prasetya Dinata
+    </h2>
+
+    <p class="text-gray-400 leading-relaxed">
+      Building clean web systems, reliable networks, and practical IoT solutions
+      with structured thinking and real-world implementation.
+    </p>
+
+    <div class="mt-10 flex justify-center gap-4">
+      <a href="#projects"
+         class="px-6 py-3 bg-primary text-black rounded-md text-sm font-medium hover:opacity-90">
+        View Projects
+      </a>
+      <a href="CV Raffi Prasetya Dinata.pdf" download
+         class="px-6 py-3 border border-[#4a372c] rounded-md text-sm hover:border-accent">
+        Download CV
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-28 bg-black/20">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+
+    <div class="flex justify-center">
+      <img src="foto raffi.jpg" class="w-64 h-64 rounded-full object-cover shadow-soft">
+    </div>
+
+    <div>
+      <h3 class="text-3xl font-bold mb-6 text-accent">About Me</h3>
+      <p class="text-gray-400 leading-relaxed mb-6">
+        Saya lulusan Sarjana Sistem Komputer Universitas Putra Indonesia YPTK Padang pada tahun 2024 memperoleh IPK 3.27 dengan pengalaman magang di PT. Inovasi Teknologi Cerdas sebagai IoT Intern dalam perancangan prototipe penyortir logam berbasis Arduino. Saya juga pernah bekerja di PT. IoT Plus Teknologi sebagai Junior IT & IoT Support, mengelola jaringan, server lokal, database sederhana, serta mendukung pengembangan sistem berbasis IoT. Keahlian saya mencakup IoT, jaringan komputer, pemrograman, dan otomasi sistem, didukung kemampuan dokumentasi teknis yang terstruktur
+      </p>
+
+      <div class="grid grid-cols-2 gap-4 text-sm text-gray-300">
+        <div class="flex items-center gap-2"><i data-lucide="map-pin"></i>Sukabumi, Jawa Barat</div>
+        <div class="flex items-center gap-2"><i data-lucide="graduation-cap"></i>S1 Sistem Komputer, Universitas Putra Indonesia YPTK Padang</div>
+        <div class="flex items-center gap-2"><i data-lucide="mail"></i>apimansa@email.com</div>
+        <div class="flex items-center gap-2"><i data-lucide="phone"></i>089648028899</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="py-28">
+  <div class="max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-14 text-accent">Skills</h3>
+
+    <div class="grid md:grid-cols-4 gap-6">
+      <div class="bg-card border border-[#3a2a22] rounded-xl p-6 hover:shadow-[0_0_30px_rgba(192,132,87,0.25)] transition">
+        <i data-lucide="code"></i>
+        <h4 class="font-semibold mt-4">Programming</h4>
+        <p class="text-sm text-gray-400">HTML, Java, JavaScript, PHP, Python, C++</p>
+      </div>
+
+      <div class="bg-card border border-[#3a2a22] rounded-xl p-6 hover:shadow-[0_0_30px_rgba(192,132,87,0.25)] transition">
+        <i data-lucide="network"></i>
+        <h4 class="font-semibold mt-4">Networking</h4>
+        <p class="text-sm text-gray-400">Cisco, VLAN, Subnetting</p>
+      </div>
+
+      <div class="bg-card border border-[#3a2a22] rounded-xl p-6 hover:shadow-[0_0_30px_rgba(192,132,87,0.25)] transition">
+        <i data-lucide="cpu"></i>
+        <h4 class="font-semibold mt-4">IoT</h4>
+        <p class="text-sm text-gray-400">Arduino, ESP8266, ESP32</p>
+      </div>
+
+      <div class="bg-card border border-[#3a2a22] rounded-xl p-6 hover:shadow-[0_0_30px_rgba(192,132,87,0.25)] transition">
+        <i data-lucide="file-text"></i>
+        <h4 class="font-semibold mt-4">Office</h4>
+        <p class="text-sm text-gray-400">Word, Excel, PowerPoint</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="py-28 bg-black/20">
+  <div class="max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-14 text-accent">Projects</h3>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-card border border-[#3a2a22] rounded-xl p-6 hover:shadow-[0_0_30px_rgba(192,132,87,0.25)] transition">
+        <h4 class="font-semibold mb-2">Portfolio Website</h4>
+        <p class="text-sm text-gray-400">Modern responsive portfolio website.</p>
+      </div>
+
+      <div class="bg-card border border-[#3a2a22] rounded-xl p-6 hover:shadow-[0_0_30px_rgba(192,132,87,0.25)] transition">
+        <h4 class="font-semibold mb-2">IoT Waste Sorter</h4>
+        <p class="text-sm text-gray-400">Automatic metal & non-metal waste separator.</p>
+      </div>
+
+      <div class="bg-card border border-[#3a2a22] rounded-xl p-6 hover:shadow-[0_0_30px_rgba(192,132,87,0.25)] transition">
+        <h4 class="font-semibold mb-2">Network Design</h4>
+        <p class="text-sm text-gray-400">LAN topology with Cisco VLAN.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-28 bg-black/20">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+
+    <div>
+      <h3 class="text-3xl font-bold mb-6 text-accent">Contact Information</h3>
+
+      <div class="space-y-4">
+        <a href="https://wa.me/6289648028899" target="_blank"
+           class="flex items-center gap-4 bg-card border border-[#3a2a22] rounded-xl p-5">
+          <i data-lucide="message-circle"></i>
+          <span>WhatsApp</span>
+        </a>
+
+        <a href="mailto:apimansa@email.com"
+           class="flex items-center gap-4 bg-card border border-[#3a2a22] rounded-xl p-5">
+          <i data-lucide="mail"></i>
+          <span>Email</span>
+        </a>
+      </div>
+    </div>
+
+    <form class="space-y-4" onsubmit="sendToWhatsApp(event)">
+      <input id="name" required class="w-full p-3 bg-card border border-[#3a2a22] rounded-md" placeholder="Your Name">
+      <input id="email" required class="w-full p-3 bg-card border border-[#3a2a22] rounded-md" placeholder="Your Email">
+      <textarea id="message" required class="w-full p-3 bg-card border border-[#3a2a22] rounded-md" placeholder="Message"></textarea>
+      <button class="w-full px-6 py-3 bg-primary text-black rounded-md font-medium">
+        Send Message
+      </button>
+    </form>
+
+  </div>
+</section>
+
+<footer class="py-6 text-center border-t border-[#3a2a22] text-sm text-gray-500">
+  © 2023 Raffi Prasetya Dinata
+</footer>
+
+<script>
+  lucide.createIcons();
+  function sendToWhatsApp(e) {
+    e.preventDefault();
+    const text =
+      `Nama: ${name.value}%0AEmail: ${email.value}%0APesan:%0A${message.value}`;
+    window.open("https://wa.me/6289648028899?text=" + text, "_blank");
+  }
+</script>
+
+</body>
+</html>
